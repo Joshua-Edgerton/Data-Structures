@@ -24,6 +24,7 @@ class BinarySearchTreeTests(unittest.TestCase):
 
     def test_contains(self):
         self.bst.insert(2)
+        
         self.bst.insert(3)
         self.bst.insert(7)
         self.assertTrue(self.bst.contains(7))
